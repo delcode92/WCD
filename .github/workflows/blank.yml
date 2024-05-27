@@ -1,6 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
+name: CI tester
 
 # Controls when the workflow will run
 on:
@@ -34,11 +32,13 @@ jobs:
       #   run: npm install
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: node --version
+      # - name: Run a one-line script
+      #   run: node --version
+      
 
-      # # Runs a set of commands using the runners shell
-      # - name: Run a multi-line script
-      #   run: |
-      #     echo Add other actions to build,
-      #     echo test, and deploy your project.
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          whoami,
+          pwd,
+          ls -l
