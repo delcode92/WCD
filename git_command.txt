@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "up"
+git branch -M php_simple_CRUD
+git remote add origin https://github.com/delcode92/WCD.git
+git push -u origin php_simple_CRUD
