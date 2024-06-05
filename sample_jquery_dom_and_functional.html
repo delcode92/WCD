@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery AJAX Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Random Joke Generator</h1>
+    <button id="changeBtn">display text</button>
+    <p id="displayTxt"></p>
+
+    <script>
+      function changeText(p_id){
+        $('#'+p_id).html('display text herer ... 123');
+      }
+
+      $(document).ready(function(){
+        $('#changeBtn').click(function(){
+          changeText("displayTxt");
+        });
+      });
+    </script>
+</body>
+</html>
