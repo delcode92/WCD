@@ -8,8 +8,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <h1>Random Joke Generator</h1>
+    <h1 class="header">Smple JQUERY </h1>
     <button id="changeBtn">display text</button>
+    <button id="changeColorBtn">change header color</button>
     <p id="displayTxt"></p>
 
     <script>
@@ -18,9 +19,15 @@
       }
 
       $(document).ready(function(){
+        
         $('#changeBtn').click(function(){
           changeText("displayTxt");
         });
+
+        $('#changeColorBtn').click(function(){
+          $('.header').css({"background-color": "yellow", "font-size": "150%"});
+        });
+
       });
     </script>
 </body>
