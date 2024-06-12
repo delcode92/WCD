@@ -1,0 +1,16 @@
+rangkuman SSH dan Cara Menghubungkannya di Windows 11:
+
+1. pastikan "OpenSSH Client" dan "OpenSSH Server" sudah terinstall di laptop/pc yang di gunakan.
+2.jika belum maka install lewat setting->system->Optional Features cari OpenSSH Server dan OpenSSH Client dan install.
+3.buka command prompt dan cek apakah SSH sudah terinstall dengan mengetik SSH.
+4.buat ssh keygen pada command prompt dgn menggunakan "ssh-keygen".
+5.masukkan passphrase/kata kunci dan jangan sampai lupa!.
+6.hubungkan ke server yg ingin di acces dgn cara menggunakan "ssh username@ip address -i lokasi private key".
+
+username 	= nama perangkat yg ingin di hubungkan.
+ip address	= ip address perangkat yg ingin di akses.
+lokasi	= directory/tempat dimana kalian menyimpan private key.
+
+Kesimpulan:
+- Untuk Melakukan SSH pada Windows 11 kalian harus memastikan service SSH nya sudah terinstall dan jgn lupa untuk membuat keygen,
+  dan mengakses nya menggunakan private key bukan public key.
