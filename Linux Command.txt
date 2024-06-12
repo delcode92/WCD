@@ -1,0 +1,35 @@
+1. pwd :
+- Deskripsi: Print Working Directory.
+- Fungsi: Menampilkan path (jalur) direktori saat ini di terminal.
+
+2. ls:
+- Deskripsi: List.
+- Fungsi: Menampilkan daftar file dan direktori dalam direktori saat ini atau direktori yang ditentukan.
+
+3. mkdir:
+- Deskripsi: Make Directory.
+- Fungsi: Membuat direktori baru dengan nama yang diberikan.
+
+4. touch:
+- Deskripsi: Touch.
+- Fungsi: Membuat file kosong baru atau memperbarui timestamp pada file yang sudah ada.
+
+5. nano:
+- Deskripsi: Nano Text Editor.
+- Fungsi: Membuka editor teks berbasis terminal sederhana bernama nano untuk membuat atau mengedit file teks.
+
+6. cp:
+- Deskripsi: Copy.
+- Fungsi: Menyalin file atau direktori dari satu lokasi ke lokasi lain.
+
+7. mv:
+- Deskripsi: Move.
+- Fungsi: Memindahkan atau mengganti nama file atau direktori.
+
+8. rm:
+- Deskripsi: Remove.
+- Fungsi: Menghapus file. Tidak digunakan untuk menghapus direktori yang berisi file tanpa opsi tambahan.
+
+9. rm -rf:
+- Deskripsi: Remove Recursive Force.
+- Fungsi: Menghapus direktori beserta seluruh isinya secara rekursif tanpa meminta konfirmasi. Ini adalah perintah yang sangat kuat dan harus digunakan dengan hati-hati karena dapat menghapus data secara permanen.
