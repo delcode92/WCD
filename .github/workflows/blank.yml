@@ -35,12 +35,14 @@ jobs:
       - name: Run a one-line script
         run: whoami
 
+      
+        
+      - name: create file
+        run: touch test_file.txt
+
       - name: check file
         run: ls -l test_file.txt
         
-      #- name: create file
-        #run: touch test_file.txt
-
       #- name: check python version
        # run: python --version
 
