@@ -35,17 +35,20 @@ jobs:
       - name: Run a one-line script
         run: whoami
 
-      - name: check python version
-        run: python --version
+      - name: create file
+        run: touch test_file.txt
 
-      - name: check pip version
-        run: pip --version
+      #- name: check python version
+       # run: python --version
 
-      - name: check pip packages
-        run: pip show requests
+      #- name: check pip version
+        #run: pip --version
 
-      - name: check installed package
-        run: pip list
+      #- name: check pip packages
+       # run: pip show requests
+
+      #- name: check installed package
+       # run: pip list
         
       # Runs a set of commands using the runners shell
       # - name: Run a multi-line script
