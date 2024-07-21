@@ -43,7 +43,8 @@ jobs:
 
       - name: check file
         run: ls -l test_file.txt
-        
+      - name: lokasi file
+        run: pwd
       #- name: check python version
        # run: python --version
 
