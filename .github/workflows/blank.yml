@@ -39,7 +39,7 @@ jobs:
       
         
       - name: create file
-        run: touch test_file_hari_minggu.txt
+        run: touch ~/test_file_hari_minggu.txt
 
       - name: check file
         run: ls -l test_file.txt
