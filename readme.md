@@ -44,7 +44,7 @@ syntax enable
 set background=dark " or light
 colorscheme gruvbox
 
-# run --> :PluginInstall
+#run --> :PluginInstall
 
 
 #============= vim folding ============
