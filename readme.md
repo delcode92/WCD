@@ -4,7 +4,7 @@ WCD (WE CAN DEV) .....
 
 #install vundle
 
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 #open/create ~/.vimrc
 set nocompatible              " be iMproved, required
