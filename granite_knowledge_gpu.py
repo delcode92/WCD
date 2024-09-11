@@ -1,7 +1,10 @@
 from langchain.llms.base import LLM
 from langchain.prompts import PromptTemplate
 from langchain.schema.runnable import RunnableSequence
-from langchain_community.vectorstores import Chroma
+
+# from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
+
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
