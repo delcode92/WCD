@@ -42,7 +42,7 @@ class LocalGraniteLLM(LLM):
         return "local_granite"
 
 # Initialize the LLM with the path to your local Granite .gguf model file
-local_granite = LocalGraniteLLM(model_path="~/model/granite-7b-lab-Q4_K_M.gguf")
+local_granite = LocalGraniteLLM(model_path="/root/model/granite-7b-lab-Q4_K_M.gguf")
 
 # Initialize embeddings
 embeddings = HuggingFaceEmbeddings()
@@ -103,7 +103,7 @@ def test_knowledge_addition(test_query: str):
 
 
 # Example usage
-add_knowledge("~/model/knowledge.txt")  # Add this line to add knowledge
+add_knowledge("/root/model/knowledge.txt")  # Add this line to add knowledge
 
 # Run the chain
 result = chain.invoke({"topic": "artificial intelligence"})
