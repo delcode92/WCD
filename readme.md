@@ -1,4 +1,4 @@
-<i>WCD (WE CAN DEV) .....</i>
+<h1 style="color:red;"><i>WCD (WE CAN DEV) .....</i></h1>
 
 #======= SETUP VIM =========
 
