@@ -1,4 +1,4 @@
-WCD (WE CAN DEV) .....
+<i>WCD (WE CAN DEV) .....</i>
 
 #======= SETUP VIM =========
 
