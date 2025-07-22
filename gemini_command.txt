@@ -1,0 +1,27 @@
+I had project on this dir `/Users/Admin/Documents/project/analisis_kebocoran_dats/analisis_kebocoran_data` that project had couple important dirs or services 
+that ran with couple programming languages:
+nextjs as frontend
+expressjs and golang as backend
+
+communication between frontend and backend using graphql
+
+the nextjs frontend:
+location: `/Users/Admin/Documents/project/analisis_kebocoran_dats/analisis_kebocoran_data`
+
+the backends=>
+graphql service (using expressjs):
+location: /Users/Admin/Documents/project/analisis_kebocoran_dats/analisis_kebocoran_data/graphql_express_server
+
+grpc service (using golang):
+location: /Users/Admin/Documents/project/analisis_kebocoran_dats/analisis_kebocoran_data/grpc_go_mongo_server
+
+SSE service (using expressjs)
+location: /Users/Admin/Documents/project/analisis_kebocoran_dats/analisis_kebocoran_data/sse_node_server
+
+database I used is mongodb
+I want you to analyze just important parts from thoose folders and understand the correlation between them
+then create `documentation.txt` file on `/Users/Admin/Documents/project/analisis_kebocoran_dats/analisis_kebocoran_data/docs` write on that doc file
+how my codebase works, remember just important parts of code/function
+
+then after that create file `dot_language.txt` on `/Users/Admin/Documents/project/analisis_kebocoran_dats/analisis_kebocoran_data/docs`  based on this documentation `https://graphviz.org/doc/info/lang.html`. 
+on that file will explain correlation my codebase cause I want to use graphiz to visualize them
